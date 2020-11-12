@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.title {
+    font-size: 24px;
+    padding: 45px 0 40px 0 ;
+    margin: 0;
+}
+
+.text {
+    font-size: 14px;
+    margin: 0;
+}
+.main {
+    max-width: 1150px;
+    max-height: 450px;
+    display: flex;
+    margin: 0 auto;
+    background-color:#1D1C1C;
+    color: #FFFFFF;
+    font-family: Raleway-Light;
+}
+.container {
+    flex: 1;
+    text-align: center;
+    padding: 110px 20px;
+    
+    
+}
+.square {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px 0 20px 0;
+    background-color: #FFAE00;
+    display: flex;
+    margin: 0 auto;     
+      
+}
+
+.fa-2x {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.kasper {
+    max-width: 1150px;
+    background-color:#1D1C1C;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    color: #fff;
+    padding: 120px 0px 140px 0px;
+}
+.list {
+    width: 150px;
+    display: flex;
+    margin: 0 auto;        
+    list-style-type: none;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 0;
+}
+.kasper-title {
+    font-family: OpenSans-Regular;
+    font-size: 20px;
+    padding: 55px 0 20px 0; 
+    margin: 0;
+}
+
+.line {
+    width: 20%;
+      
+}
+a :visited {
+    color: #fff;
+}
+a {
+color:inherit;
+}
+
+@font-face {     
+    font-family: "Raleway-Light";     
+    src: url("./fonts/Raleway-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+
+@font-face {     
+    font-family: "OpenSans-Regular";     
+    src: url("./fonts/OpenSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
