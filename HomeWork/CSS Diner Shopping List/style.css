@@ -1,0 +1,141 @@
+
+
+.wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 50%;        
+    background-color: #3B3F45;
+    font-family: 'Trebuchet MS Regular';
+    color: #fff;
+    border: 10px ridge #fff;
+   
+}
+.main {
+    
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top:25px ;
+    margin-bottom: 25px;
+    font-size: 20px; 
+       
+}
+
+.header {
+    padding: 5px;
+    
+}
+h1 {
+    font-family: 'Trebuchet MS Bold';
+    margin-bottom:5px ;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+
+.header, .footer  {
+    background-color: #4A4F56;
+    color: #EB7D7E;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+      
+    
+}
+li {
+    height: 50px; 
+    box-sizing: border-box;
+    
+}
+
+ul li:nth-child(odd) {
+    background-color: #88839E;
+}
+ul li:nth-child(even) {
+    background-color: #7A7593;
+}
+ul li:hover {
+    background-color:#625E77;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;    
+}
+input {
+    margin: 10px;
+}
+
+
+input[type=checkbox]:checked + span {
+    text-decoration: line-through;
+  }
+
+label:hover {
+    cursor: pointer;
+}
+label:active {
+    background-color: #BD0042;
+}
+
+.footer {
+    max-width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 12px 0;
+        
+}
+footer a {
+    text-decoration: none;
+    color:#EB7D7E ;
+    
+}
+label {
+    font-size: 12px;
+    height: 100%;      
+    display: flex;    
+    
+}
+span {
+font-size: 25px;
+}
+ /*after*/       
+
+#pickles+span::after {
+    content: "(for the next lesson about CSS)"    ;
+    font-size: 12px;  
+    
+}
+#apples+span::after {
+    content: "(for more CSS manipulations)"    ;
+    font-size: 12px;
+}
+#oranges+span::after {
+    content: "(because they are awesome)"    ;
+    font-size: 12px;
+}
+#plates+span::after {
+    content: "(hm..they always disappear)"    ;
+    font-size: 12px;
+}
+#sake+span::after {
+    content: "(for my friends)"    ;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS Bold';
+    src: url('./fonts/TrebuchetMS-Bold.woff') format('woff');
+        font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Trebuchet MS Regular';
+    src:url('./fonts/TrebuchetMS.woff') format('woff'),format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+*{transition: all .10s ease-in;}
