@@ -1,0 +1,129 @@
+*{transition: all .1s ease-in;}
+body {
+    background-color: #fff;
+    font-family: "Lucida Sans Unicode";
+    color: #fff;
+    background-color: #000;
+    
+}
+
+.main {
+    width: 70%;
+    height: 100%;
+    border: 20px solid #2B81AC;
+    margin: 0 auto;
+    background-color: #3399CC;
+    
+}
+ul {
+    font-size: 0;
+    padding-left: 0;
+    
+    
+}
+.box {
+    width: 75%;
+    height: 75%;    
+    margin: 0 auto;
+    padding-bottom: 100px;
+    
+}
+li {
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #fff;
+    box-sizing: border-box;    
+    font-size: 24px;
+    line-height: 40px;
+    padding: 20px 0;
+    opacity: 0.5;
+    
+}
+.lisbon {
+    width: 50%;
+    height: 25%;
+    background-color: #3399CC;
+    
+}
+.paris, .belgrade {
+    width: 25%;
+    height: 25%;
+    background-color: #33CCCC;
+}
+.belgrade {
+    width: 25%;
+    height: 25%;
+    background-color: #996699;
+    
+}
+.moscow {
+    width: 25%;
+    height: 25%;
+    background-color: #C24747;
+}
+.tela {
+    width: 25%;
+    height: 25%;
+    background-color: #E2674A;
+}
+
+.cair {
+    width: 25%;
+    height: 25%;
+    background-color:#FFCC66;
+}
+.new {
+    width: 25%;
+    height: 25%;
+    background-color:#99CC99;
+}
+.delhi {
+    width: 25%;
+    height: 25%;
+    background-color:#669999;
+}
+.san {
+    width: 50%;
+    height: 25%;
+    background-color:#CC6699;
+}
+.tokyo {
+    width: 25%;
+    height: 25%;
+    background-color:#339966;
+}
+.sydney {
+    width: 100%;
+    height: 25%;
+    background-color:#666699;
+}
+ul :hover {
+    opacity: 0.9;
+}
+
+
+
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    src: url("./fonts/Lucida-Sans-Unicode.ttf");
+    }
+@font-face { 
+    font-family:'weathericons-regular-webfont';
+    src: url("./font/weathericons-regular-webfont.eot");
+}
+@font-face { 
+    font-family:'weathericons-regular-webfont';
+    src: url("./font/weathericons-regular-webfont.svg");
+}
+@font-face { 
+    font-family:'weathericons-regular-webfont';
+    src: url("./font/weathericons-regular-webfont.ttf");
+}
+@font-face { 
+    font-family:'weathericons-regular-webfont';
+    src: url("./font/weathericons-regular-webfont.woff");
+}
+@font-face { 
+    font-family:'weathericons-regular-webfont';
+    src: url("./font/weathericons-regular-webfont.woff2");
+}
