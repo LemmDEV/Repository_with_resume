@@ -1,0 +1,103 @@
+@font-face{
+    font-family: 'NeueHansKendrick, Sans-serif';    
+    src: url('./fonts/NeueHansKendrick-Regular.ttf');
+    font-weight: normal;    
+    font-style: normal;    
+    }
+body {
+    font-family: 'NeueHansKendrick, Sans-serif';
+}
+p.date {
+    
+    font-size: 13px;
+    color: #818181;
+    padding: 30px 0 0 30px;
+    margin: 0;
+}
+.container {
+    max-width: 1600px;
+    max-height: 1400px;
+    background-color: #e2e7ec;
+    display: flex;
+    margin: 0 auto;   
+    justify-content: center; 
+    text-transform: uppercase;
+    
+}
+.main {
+    max-width: 1220px;
+    max-height: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin: 90px 140px 110px;
+    justify-content: center;
+}
+.box1 {
+    background-image: url(./img/car.png);
+    width: 740px;
+    height: 540px;
+    margin: 0 20px 20px 0;
+}
+.box22 {
+    background-image: url(./img/girl.png);
+    width: 360px;
+    height: 250px;
+    
+}
+.box2 {
+    width: 360px;
+    height: 540px;
+    background-color: #ffffff;
+    
+}
+.pic1 {
+    background-image: url(./img/friends.png);
+    width: 360px;
+    height: 250px;
+    
+    
+}
+.pic2 {
+    background-image: url(./img/boots.png);
+    width: 360px;
+    height: 250px;
+    
+    
+}
+.pic3 {
+    background-image: url(./img/bench.png);
+    width: 360px;
+    height: 250px;
+        
+}
+.friends, .boots {
+    margin-right: 20px;
+}
+.text {
+    font-size: 22px;
+    color: #000000;
+    
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 22px;
+    margin: 0;
+
+}
+.boots .date {
+    visibility: hidden;
+}
+.face {
+    padding: 70px 0 0 30px;
+}
+.loading {
+    display: flex;
+    margin: 0 auto;
+    align-self: flex-end;
+    position: absolute;
+    transform: translateY(-40px);
+    color:  #8996a3;
+    font-weight: bold;
+    }
+
+    
