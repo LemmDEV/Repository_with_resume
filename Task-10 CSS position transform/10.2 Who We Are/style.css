@@ -1,0 +1,174 @@
+.main {
+    max-width: 1170px;
+    max-height: 735px;
+    margin: 0 auto;
+    margin-top: 107px;
+    margin-bottom: 117px;    
+    text-align: center;
+    font-family: 'Lato';
+}
+.blog {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: 0.2em;
+}
+.line {
+    width: 40px;
+    height: 5px;
+    background-color: #000;
+    opacity: 0.1;
+    border: none;
+}
+.description {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+/*
+.letters {
+    margin-top: 280px;
+}
+  */
+.mr {
+    z-index: 2;
+}
+
+.alex {
+    z-index: 2;
+}
+.elena {       
+    z-index: 2;
+}
+.lily {
+
+    z-index: 2;
+
+}
+.bin2 {
+    background-color: #18b5dc;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    z-index: 1;  
+    width: 270px;
+    height: 270px;
+      
+}
+.alex2 {
+    background-color: #18b5dc;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 270px;
+    height: 270px;
+}
+.elena2 {
+    background-color: #18b5dc;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 270px;
+    height: 270px;
+}
+.lily2 {
+    background-color: #18b5dc;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 270px;
+    height: 270px;
+}
+.social {
+    list-style-type: none;
+    display: flex;
+}
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.link {
+    width: 42px;
+    height: 42px;
+    background-color: #5ecbe7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img {
+    width: 270px;
+    height: 270px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.social {
+    padding-left: 0;
+}
+
+.link:nth-child(2) {
+    margin: 0 10px;
+}
+.fa-2x {
+    color: #fff;
+}
+.author {
+    font-weight: 700;
+}
+.prof {
+    font-weight: 300;
+}
+@font-face {
+	font-family: 'Lato';
+ src: url('fonts/Lato-Light.woff') format('woff'); 
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato';
+ src: url('fonts/Lato-Bold.woff') format('woff'); 
+	font-weight: 700;
+	font-style: normal;
+}
+.on {
+    position: absolute ;
+    width: 1170px;
+    height: 270px;     
+}
+.off {
+    position: relative ;      
+}
+.nav {
+    margin: 0;
+}
+.mr:hover  {      
+    z-index: 0;
+      
+}
+.container:hover .alex {
+    z-index: 0; 
+}
+.container:hover .elena {
+    z-index: 0; 
+}
+.container:hover .lily {
+    z-index: 0; 
+}
+
