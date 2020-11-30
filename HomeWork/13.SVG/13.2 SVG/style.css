@@ -1,0 +1,250 @@
+@font-face {
+	font-family: 'Lato';	
+	src: local('☺'), url('fonts/Lato-Bold.woff');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato';	
+	src: local('☺'), url('fonts/Lato-Light.woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato';	
+	src: local('☺'), url('fonts/Lato-Regular.woff');
+	font-weight: 400;
+	font-style: normal;
+}
+body {
+    font-family: 'Lato';
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.wrapper {
+max-width: 1920px;
+max-height: 1072px;
+}
+.section__icon {
+    margin: 0 auto;
+    padding-top: 285px;
+}
+
+.section__rect {
+    position:relative ;
+}
+.section {
+    background-image: url(./img/hero-bg.jpg.jpg);
+    width: 1920px;
+    height: 1072px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.section__title h1 {
+width: 600px;
+height: 103px;
+color: #ffffff;
+font-family: Lato;
+font-size: 54px;
+font-weight: 700;
+margin: 0;
+margin: 0 auto;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 8.62px;
+padding: 97px 0 53px 0;
+
+}
+
+.section__subtitle p {
+width: 579px;
+height: 70px;
+color: #ffffff;
+font-family: Lato;
+font-size: 15px;
+font-weight: 400;
+line-height: 29px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.9px;
+margin: 0 auto;
+
+}
+.section__icon-scroll {
+  margin: 0 auto;
+  padding-top: 245px;
+}
+
+.box {
+  width: 1920px;
+  height: 470px;
+  padding-top: 160px;
+}
+.block__title {    
+text-align: center;
+margin:0;    
+width: 100%;
+height: 26px;
+color: #3c3c3c;
+font-family: Lato;
+font-size: 34px;
+font-weight: 700;
+letter-spacing: 8.95px;
+    
+}
+.block__wrap {
+    width: 902px;
+height: 312px;
+border: 3px solid #3c3c3c;
+border-top: none;
+margin: 0 auto;
+text-align: -webkit-center;
+}
+.block__title:before, .block__title:after{
+  content:"";
+  display: inline-block;
+  height: 2px;
+  width: 28%;
+  border-top:3px solid #000;
+  margin: 0 15px 7px 15px;
+}
+.block__content {
+width: 545px;
+color: #3c3c3c;
+font-family: Lato;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+text-align:center;
+margin: 65px 0 30px 0;
+}
+.services {
+width: 1920px;
+height: 488px;
+background-image: url(./img/services.jpg.jpg);
+display: flex;
+align-items: center;
+color: #fff;
+}
+.services-title {
+  color: #fff;
+  
+}
+.services-content {
+  color: #fff;
+}
+.services-wrap {
+  border-color: #fff;
+}
+.services-title::before, .services-title::after {
+  border-color: #fff;
+}
+.what-wrap {
+  max-width: 900px;
+}
+.block__content-title {
+text-transform: uppercase;
+width: 179px;
+height: 16px;
+color: #3c3c3c;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+letter-spacing: 5.26px;
+margin: 0 auto;
+padding: 30px 0;
+}
+
+.what {
+  font-size: 14px;
+}
+.what img {
+  margin: 60px 0 30px 0;
+}
+.block__content-text {
+  width: 549px;
+height: 89px;
+font-weight: 300;
+line-height: 25.89px;
+}
+.what-wrap, .box-height{
+height: 1250px;
+}
+
+.image {
+display: flex;
+flex-wrap: wrap;
+width: 1920px;
+height: 485px;
+margin-top: 100px;
+box-sizing: border-box;
+justify-content: space-between;
+}
+.image_wrap {
+  position: relative;
+}
+.image_wrap h2 {
+position	: absolute;
+top		: 140px;
+left		: 0;
+width		: 100%;
+color: #fff;
+text-transform: uppercase;
+padding: 0 0 40px 45px;
+font-family: Lato;
+font-size: 34px;
+font-weight: 700;
+letter-spacing: 8.95px;
+}
+
+.btn { 
+width: 395px;
+height: 58px;
+border: 2px solid #3c3c3c;
+background-color: #3c3c3c;
+color: #ffffff;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 2.54px;
+display: table-cell;
+vertical-align: middle;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn a:link {
+  text-decoration: none;
+}
+.btn a:visited {
+  text-decoration: none;
+}
+.btn a:active {
+  text-decoration: none;
+}
+.copyright {
+
+color: #3c3c3c;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+padding-left: 35px;
+
+}
+.footer {
+  display: flex;
+ justify-content: center;
+ padding-bottom: 70px;
+}
+.mod {
+  height: 400px;
+}
+.section__circle {
+width: 35px;
+height: 37px;
+}

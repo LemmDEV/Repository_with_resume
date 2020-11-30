@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    transition: all 1.5s;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #70bfff;
+    max-width: 1500px;
+    max-height: 790px;
+    width: 100%;
+    
+}
+.btn {    
+    padding: 180px 0 151px 85px;
+}
+.btn__item {
+    list-style-type: none;
+    padding: 0;
+}
+span.icon_line:hover  {
+transform: scale(1.2);
+}
+
+.btn__item li {
+    font-size: 0;
+    margin-bottom: 20px;    
+}
+
+.btn__item li span {
+color: #262626;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+text-align: center;
+padding: 0 5px;
+vertical-align: top;
+padding-top: 34px;
+}
+
+
+.btn__item li .icon_line{
+    width: 300px;
+    height: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    display: inline-block;       
+}
+.btn__item li .icon {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    display: inline-block;    
+}
+.icon-cart {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+.icon:hover {
+    transform:  rotate(360deg) ;   
+    transition: 1s;
+}
+.icon:hover .fa-x {
+    transform: rotate(-360deg);
+    transition:  2s;
+}
+.icon:hover .fa-2x {
+ transform: rotate(-360deg);
+transition:  2s;
+}
+.btn__item:hover {
+    scale: (1.2);
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+a:visited {
+    text-decoration: none;
+}
+
+
+.picture {
+background-image: url(./img/tomato.png);
+width: 462px;
+height: 527px;
+padding: 0px 165px 163px 0;
+align-self: center;
+}
+.title {    
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+    width: 545px;
+    height: 167px;
+    padding-top: 231px;
+    margin-left: -80px; 
+    display: block;  
+    
+    }
+.title a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+a:visited {
+    text-decoration: none;
+    
+}
+a:link {
+    text-decoration: none;
+    
+}
+.title a:hover {
+    text-decoration: none;
+      
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Bold.eot');
+	src: local('☺'), url('fonts/Raleway-Bold.woff');
+	font-weight: 700;
+	font-style: normal;
+}
+

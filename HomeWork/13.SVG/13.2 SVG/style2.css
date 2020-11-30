@@ -1,0 +1,78 @@
+.background {
+    padding: 20px;
+    width: 500px;
+    background-color: yellow;
+}
+  ​
+.block {
+    position: relative;
+    padding: 30px;
+    border: 5px solid #000;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}  ​
+.block h2 {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+  ​
+.block p {
+    margin: 0;
+}  ​
+.block button {
+    /* Спо­зи­ци­о­ни­руем ссылку так 
+    чтобы она сто­яла по цен­тру ниж­ней рамки */
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    background: transparent;
+}
+.block {
+    /* ... */
+    border-bottom: 0;
+}  ​
+
+.block::before,
+.block::after {
+    position: absolute;
+    top: 100%;
+    width: 170px;
+    height: 5px;
+    background: #000;
+    content: '';
+}  ​
+.block::before {
+    left: -5px;
+}  ​
+.block::after {
+    right: -5px;
+}
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 100%;
+}
+.footer button {
+    flex-grow: 0;
+    padding: 0 30px;
+    text-align: center;
+
+}
+.footer div {
+    height: 5px;
+    min-width: 30px;
+    flex-grow: 1;
+    background: #000;
+}
