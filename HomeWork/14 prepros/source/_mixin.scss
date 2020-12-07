@@ -1,0 +1,31 @@
+@mixin _375 {
+    @media screen and (max-width:375px) {
+        /* @content; */
+        .header__subtitle {
+            font-size:$titleFontSize/2;
+        }
+        .main {
+            flex-direction: column;
+            margin-top: 0; 
+        }
+    }
+}
+
+@mixin _992 {
+    @media screen and (max-width:992px) {
+        @content;
+        
+        
+    }
+}
+@mixin _1200 {
+    @media screen and (max-width:1200px) {
+        @content;
+    }
+}
+
+@function rem-calc($font-size : 0) {
+       $remSize:$font-size / $baseFontSize;
+    @return #{$remSize}rem;
+  }
+   
