@@ -1,0 +1,253 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@font-face {
+	font-family: 'bebasneue';
+	src: url('fonts/bebasneue_bold.woff2');	
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'bebasneue';
+	src: url('fonts/bebasneue_regular.woff2');	
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'bebasneue';
+	src: url('fonts/bebasneue_thin.woff2');	
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Light.woff');	
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+
+body {
+    background-color: #9789f9;
+}
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 100px auto;
+    max-width: 1100px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    
+}
+
+.tarif {
+    width: calc((100% - 370px) / 2);
+    height: 610px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f5f4f9;
+}
+
+.tarif__pop {
+    width: 37%;
+    margin: -22.5px 0;
+    background-color: #f5f4f9;
+    height: 690px;
+    position: relative;
+    
+}
+.tarif__pop:hover .pop-up__wrapper {
+    visibility: visible;
+    -webkit-animation: KEYFRAME-NAME 3s infinite;
+            animation: KEYFRAME-NAME 3s infinite;
+}
+.pop-up__wrapper {
+    visibility: hidden;    
+        
+}
+@-webkit-keyframes KEYFRAME-NAME {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+    
+}
+@keyframes KEYFRAME-NAME {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+    
+}
+
+
+.pop-up__small {
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    background-color: #fd8d7b;    
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.pop-up__middle {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    background-color: #fd8d7b;    
+    right: 20px;
+    top: 20px;
+    border-radius: 50%;
+}
+
+.pop-up__large {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    background-color: #fd8d7b;    
+    right: 34px;
+    top: 34px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.bubble__pointer {    
+    position: absolute;
+    right: -75px;
+    top: 42px;
+}
+.pointer__text {
+    margin: -28PX auto;
+    color: #fff;
+    font-family: 'bebasneue';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.bubble {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-family: 'bebasneue';
+    font-weight: 400;
+    font-size: 24px;
+}
+.tarif__box {
+    background:  #fff;
+    min-height: 225px;
+    /* border-radius: 70px 70px 0 0; */
+    -webkit-clip-path: ellipse(75% 100% at 50% 100%);
+            clip-path: ellipse(75% 100% at 50% 100%);
+    padding-top: 35px;    
+}
+.tarif__box ul {
+    display: inline-block;
+    margin-left: 50%; /* From parent width */
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);    
+}
+
+.tarif__pop .tarif__benefits {
+    padding-bottom: 80px;
+}
+
+.tarif__price {
+    font-family: 'bebasneue';
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.tarif__price:before {
+    content: '$';
+    font-size: 24px;
+    vertical-align: super;
+}
+
+.tarif__price:after {
+    content: '/HR';
+    font-size: 16px;
+    /* vertical-align: sub; */
+}
+
+.tarif__price {
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.tarif__price .baks {
+    font-size: 16px;
+    vertical-align: super;    
+}
+
+.tarif__price .hr {
+    font-size: 16px;
+    vertical-align: sub;
+}
+.tarif__benefits {
+    list-style: none;
+    text-align: left;
+    /* padding-left: 6rem; */
+    padding-bottom: 30px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.tarif__benefits li {
+    margin-top: 33px;
+}
+.tarif__name {
+    font-family:'bebasneue'; 
+    font-weight: 400;
+    font-size: 24px;
+    margin: 15px 0 30px 0;
+}
+.tarif__icon .paint, .palette, .hummer {
+    
+    width: 30px;
+    height: 30px;
+}
+.tarif__btn {
+    width: 200px;
+    height: 55px;
+    border-radius: 29px ;
+    background-color: #6fcffb;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 3;    
+    font-family:'bebasneue';
+    font-weight: 700;
+    font-size: 18px;
+    word-spacing: 7px;    
+}
+.tarif__btn a {
+    text-decoration: none;
+    color: #fff;
+}
+.mod__btn {
+    margin-top: -40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #fd8d7b;
+}
+.tarif__footer {
+    text-align: center;
+    line-height: 8;  
+    color: #a9a9a9;
+    font-size: 11px;    
+}
+.tarif__footer p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 11px;
+
+}
