@@ -378,6 +378,9 @@ span.tomato-icon_line:hover  {
     background-color: #ffffff;
     display: inline-block;       
 }
+.tomato-icon_line {
+    vertical-align: middle;
+}
 .tomato-btn__item li .tomato-icon {
     width: 100px;
     height: 100px;
@@ -421,6 +424,12 @@ a:visited {
         font-size: 50px;
         padding-left: 10px;
     }
+   .tomato-btn__item li .tomato-icon_line {
+       width: 50%;
+    }
+   .tomato-btn__item li .tomato-icon_line_mod {
+       padding-top: 10px;
+   }
 }
 .tomato-box {
     display: flex;
@@ -631,7 +640,9 @@ a:link {
     font-weight: 300;
     line-height: 50px;
     text-align: left;
-    margin-bottom: 15px;    
+    margin-bottom: 15px; 
+    border: 1px solid;
+    padding-left: 10px;   
 }
 .submit {
     width: 170px;
@@ -831,6 +842,7 @@ li:hover {
 @media screen and (max-width:537px) {
     .letters {
         max-width: 200px;
+        padding-top: 38px;
     }    
 }
 
