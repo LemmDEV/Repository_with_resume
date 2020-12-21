@@ -1,0 +1,55 @@
+@mixin _375{
+    @media screen and (max-width: 375px) {
+      @content;
+    }
+}
+@mixin _768{
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+@mixin _992{
+    @media screen and (max-width: 992px) {
+        @content;
+    }
+}
+@mixin _1200{
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+@function rem-calc($font-size : 0){
+    $remSize: $font-size / $baseFontSize;
+    @return #{$remSize}rem;
+} 
+@mixin _info {
+    max-width: 480px;
+    /* width: 100%; */
+    max-height: 270px;
+    /* height: 100%; */
+    font-family: $baseFont;
+    /* background: rgba(35, 35, 35, 0.9); */
+    padding: 50px 30px;
+    
+
+    .btn {
+        max-width: 225px;
+        width: 100%;
+        max-height: 60px;
+        height: 100%;
+        background: $secondColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: $baseColor;
+            text-transform: uppercase;
+            font-family: $subFont;
+            font-size: $baseFontSize;
+            letter-spacing: 1.2px;
+            line-height: 26px;
+        }
+    }
+}
