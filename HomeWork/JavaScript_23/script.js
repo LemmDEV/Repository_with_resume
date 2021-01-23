@@ -48,8 +48,8 @@ alert(`${m}`)
 /*
 let num = +prompt("Введите  число", "");
 
-for (let dev = 2; dev < num; dev++) {
-    if (num % dev == 0) {
+for (let dev = 1; dev < num; dev++) {
+    if (num % dev == 0 && number == !number == !1) {
         console.log(dev);
     }
 }
