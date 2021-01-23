@@ -49,7 +49,7 @@ alert(`${m}`)
 let num = +prompt("Введите  число", "");
 
 for (let dev = 1; dev < num; dev++) {
-    if (num % dev == 0 && number == !number == !1) {
+    if (num % dev == 0 && num == !num == !1) {
         console.log(dev);
     }
 }
