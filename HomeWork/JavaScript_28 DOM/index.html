@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <ol class="music"></ol>
+
+
+    <button id="btn_modal_window">Open Modal</button>
+    <div id="my_modal" class="modal">
+        <div class="modal_content">
+            <span class="close_modal_window">×</span>
+            <p>Hello! Я модальное окно и теперь я буду жить с тобой!</p>
+        </div>
+    </div>
+
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(39, 14, 78, 0.6);
+            z-index: 1000;
+        }
+
+        .modal .modal_content {
+            background-color: #d81d55;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 50%;
+            z-index: 99999;
+        }
+
+        .modal .modal_content .close_modal_window {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        #controlPanel {
+            float: left;
+            padding-top: 30px;
+        }
+
+        .button {
+            background-color: gray;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin: 90px 40px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        #traffic-light {
+            height: 550px;
+            width: 200px;
+            float: left;
+            background-color: #111;
+            border-radius: 40px;
+            margin: 30px 0;
+            padding: 20px;
+        }
+
+        .bulb {
+            height: 150px;
+            width: 150px;
+            background-color: #333;
+            border-radius: 50%;
+            margin: 25px auto;
+            transition: background 500ms;
+        }
+    </style>
+    <br>
+
+    <div id="controlPanel">
+        <a href="#" id="switchButton" class="button">Switch</a>
+    </div>
+    <div id="traffic-light">
+        <div id="stopLight" class="bulb"></div>
+        <div id="slowLight" class="bulb"></div>
+        <div id="goLight" class="bulb"></div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
