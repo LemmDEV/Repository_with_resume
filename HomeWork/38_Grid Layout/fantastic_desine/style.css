@@ -1,0 +1,128 @@
+
+.main {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px 20px;
+    grid-template-areas:
+      "box1 box1 box2"
+      "box1 box1 box2"
+      "friends boots bench"
+      "friends boots bench";
+}
+.box1 { grid-area: box1; }
+.box2 { grid-area: box2; }
+.friends { grid-area: friends; }
+.boots { grid-area: boots; }
+.bench { grid-area: bench; }
+
+
+@font-face{
+    font-family: 'NeueHansKendrick, Sans-serif';    
+    src: url('./fonts/NeueHansKendrick-Regular.ttf');
+    font-weight: normal;    
+    font-style: normal;    
+    }
+body {
+    font-family: 'NeueHansKendrick, Sans-serif';
+}
+p.date {
+    
+    font-size: 13px;
+    color: #818181;
+    padding: 30px 0 0 30px;
+    margin: 0;
+}
+.container {
+    max-width: 1600px;
+    /* max-height: 1400px; */
+    background-color: #e2e7ec;
+    
+    margin: 0 auto;   
+    justify-content: center; 
+    text-transform: uppercase;
+    
+}
+.main {
+    max-width: 1220px;
+    max-height: 1100px;
+    
+    margin: 0 auto;
+    padding: 90px 140px 75px;
+    justify-content: center;
+}
+.box1 {
+    background-image: url(./img/car.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 740px; */
+    height: 540px;
+    /* margin: 0 20px 20px 0; */
+}
+.box22 {
+    background-image: url(./img/girl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 360px; */
+    height: 250px;
+    
+}
+.box2 {
+    
+    /* width: 360px; */
+    height: 540px;
+    background-color: #ffffff;
+    
+}
+.pic1 {
+    background-image: url(./img/friends.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 360px; */
+    height: 250px;  
+}
+.pic2 {
+    background-image: url(./img/boots.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 360px; */
+    height: 250px;
+}
+.pic3 {
+    background-image: url(./img/bench.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 360px; */
+    height: 250px;
+        
+}
+/* .friends, .boots {
+    margin-right: 20px;
+} */
+.text {
+    font-size: 22px;
+    color: #000000;
+    
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 22px;
+    margin: 0;
+
+}
+.boots .date {
+    visibility: hidden;
+}
+.face {
+    padding: 70px 0 0 30px;
+}
+.loading {
+    text-align: center;    
+    color:  #8996a3;
+    font-weight: bold;
+    padding-bottom: 100px;
+}
+/* .fa-spinner {
+    --animate-repeat: infinite;
+    --animate__infinite: infinite;
+} */
